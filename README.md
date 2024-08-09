@@ -39,7 +39,7 @@ Para cada nome, são gerados botões que permitem editar e exluir o nome da list
 * ![](img/exluir.png)
 
 
-``Resultado`` 🩷
+### Resultado 🩷
 
 <video width="320" height="240" controls>
   <source src="img/resultado.mp4" type="video/mp4">
