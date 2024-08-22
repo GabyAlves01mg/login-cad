@@ -17,20 +17,21 @@ function acessar() {
 // Arrays para armazenar dados dos usuários
 var dadosLista = []; // Array para armazenar os nomes dos usuários
 var salvaEmail = []; // Array para armazenar os e-mails dos usuários
+var salvacpf = [];
 
 // Função para salvar os dados do usuário
 function salvarUser() {
   // Obtém o valor dos campos de nome e e-mail
   let nomeUser = document.getElementById('nomeUser').value;
   let emailUser = document.getElementById('emailUser').value;
-  let cpflUser = document.getElementById('cpflUser').value;
+  let cpfUser = document.getElementById('cpflUser').value;
 
   // Verifica se os campos de nome e e-mail estão preenchidos
-  if (nomeUser && emailUser) {
+  if (nomeUser && emailUser && cpfUser) {
       // Adiciona o nome e o e-mail aos arrays correspondentes
       dadosLista.push(nomeUser);
       salvaEmail.push(emailUser);
-      salvacpf.push(cpflUser);
+      salvacpf.push(cpfUser);
 
       // Cria a lista atualizada na tabela
       criaLista();
@@ -38,7 +39,7 @@ function salvarUser() {
       // Limpa os campos de entrada após salvar
       document.getElementById('nomeUser').value = "";
       document.getElementById('emailUser').value = "";
-      document.getElementById('cpf').value = "";
+      document.getElementById('cpfUser').value = "";
   } else {
       // Exibe um alerta se algum campo estiver vazio
       alert("Favor preencher todos campos!");
@@ -52,7 +53,7 @@ function criaLista() {
 
   // Adiciona uma linha para cada usuário na lista
   for (let i = 0; i < dadosLista.length; i++) {
-      table += "<tr><td>" + dadosLista[i] + "</td><td>" + salvaEmail[i] + "</td><td><button type='button' onclick='editar(" + i + ")' class='btn btn-success'>Editar</button><button class='btn btn-success' id='btnaltera' type='button' onclick='excluir(" + i + ")'>Excluir</button></td></tr>";
+      table += "<tr><td>" + dadosLista[i] + "</td><td>" + salvaEmail[i] + "</td><td>" + salvacpf[i] + "</td><td><button type='button' onclick='editar(" + i + ")' class='btn btn-success'>Editar</button><button class='btn btn-success' id='btnaltera' type='button' onclick='excluir(" + i + ")'>Excluir</button></td></tr>";
   }
 
   // Atualiza o conteúdo da tabela com a nova lista
