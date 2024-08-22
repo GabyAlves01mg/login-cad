@@ -54,4 +54,10 @@ function excluir(i){
   document.getElementById('nomeUser').value = "";
 
   
+}                                                                                                                                                   // VALIDAR ACESSO EM TELA DE LOGIN
+                                                                                                                                                    // VALIDAR ACESSO EM TELA DE LOGIN
+function acessar(){ 
+    let loginEmail = document.getElementById('loginEmail').value;
+    let loginSenha = document.getElementById('loginSenha').value;
 }
+ 
