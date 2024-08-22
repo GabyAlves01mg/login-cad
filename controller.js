@@ -91,4 +91,14 @@ function salvarUser(){
 }else{
     alert("Favor preencher todos campos!");
 }
+// FUNÇÃO PARA CRIAR LISTA
+ 
+function criaLista(){
+  let table = document.getElementById('table').innerHTML = "<tr><th>Nome Usuário</th><th>E-mail</th><th>Ações</th></tr>";
+  for(let i = 0; i <= (dadosLista.length-1); i++){
+  table += "<tr><td>" + dadosLista[i] + "</td><td>" + salvaEmail +"</td><td><button type='button' onclick='editar(this.parentNode.parentNode.rowIndex)'>Editar</button><button id='btnaltera' type='button' onclick='excluir(this.parentNode.parentNode.rowIndex)'>Excluir</button></td></tr>";
+  document.getElementById('table').innerHTML = table;
 
+  }
+
+}
