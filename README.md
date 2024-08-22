@@ -52,7 +52,7 @@ Para cada nome, são gerados botões que permitem editar e exluir o nome da list
   <source src="img/resultado1.mp4" type="video/mp4">
 </video>
 
-[Video 1](https://github.com/GabyAlves01mg/login-cad/blob/main/img/resultado.mp4)
+[Video 1](https://github.com/GabyAlves01mg/login-cad/blob/main/img/resultado1.mp4)
 
 ### ``Resultado do cpf/email:``
 ![](img/resultado.png)
@@ -62,4 +62,4 @@ Para cada nome, são gerados botões que permitem editar e exluir o nome da list
   <source src="img/resultado.mp4" type="video/mp4">
 </video>
 
-
+[Video 2](https://github.com/GabyAlves01mg/login-cad/blob/main/img/resultado.mp4)
