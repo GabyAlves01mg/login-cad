@@ -82,3 +82,4 @@ function excluir(i) {
   // Remove a linha correspondente da tabela
   document.getElementById('table').deleteRow(i + 1); // +1 para ajustar o índice da tabela
 }       
+a
