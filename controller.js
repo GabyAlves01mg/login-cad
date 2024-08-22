@@ -73,3 +73,22 @@ if(!loginEmail || !loginSenha){
 var dadosLista = []; //var é uma palavra-chave em JavaScript usada para declarar variáveis//
  
 var salvaEmail = [];
+function salvarUser(){
+}
+  let nomeUser = document.getElementById('nomeUser').value;
+
+  let emailUser = document.getElementById('emailUser').value;
+  if(nomeUser && emailUser){
+
+    dadosLista.push(nomeUser);
+    salvaEmail.push(emailUser);
+
+   //console.log(dadosLista);
+
+   criaLista();
+   document.getElementById('nomeUser').value ="";
+   document.getElementById('emailUser').value ="";
+}else{
+    alert("Favor preencher todos campos!");
+}
+
