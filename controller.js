@@ -111,3 +111,12 @@ function editar(i){
   salvaEmail.splice(dadosLista[(i - 1)], 1); // ele permite adicionar, remover ou substituir elementos em um array, e altera o array original. //
 
 }
+//FUNÇÃO PARA EXCLUIR NOME DA LISTA
+ 
+function excluir(i){
+  //comentário sobre splice
+  dadosLista.splice((i-1),1);
+  salvaEmail.splice((i-1),1);
+  document.getElementById('table').deleteRow(i); //é utilizado para remover uma linha de uma tabela HTML em JavaScript//
+
+}                                                                                                                                                                               
