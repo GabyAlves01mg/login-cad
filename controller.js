@@ -24,7 +24,7 @@ function salvarUser() {
   // Obtém o valor dos campos de nome e e-mail
   let nomeUser = document.getElementById('nomeUser').value;
   let emailUser = document.getElementById('emailUser').value;
-  let cpfUser = document.getElementById('cpflUser').value;
+  let cpfUser = document.getElementById('cpfUser').value;
 
   // Verifica se os campos de nome e e-mail estão preenchidos
   if (nomeUser && emailUser && cpfUser) {
@@ -49,12 +49,12 @@ function salvarUser() {
 // Função para criar a lista na tabela
 function criaLista() {
   // Inicializa o conteúdo da tabela com o cabeçalho
-  let table = "<tr><th>Nome Usuário</th><th>E-mail</th><th>Ações</th></tr>";
+  let table = "<tr><th>Nome Usuário</th><th>E-mail</th><th>cpf</th><th>Ações</th></tr>";
 
   // Adiciona uma linha para cada usuário na lista
   for (let i = 0; i < dadosLista.length; i++) {
-      table += "<tr><td>" + dadosLista[i] + "</td><td>" + salvaEmail[i] + "</td><td>" + salvacpf[i] + "</td><td><button type='button' onclick='editar(" + i + ")' class='btn btn-success'>Editar</button><button class='btn btn-success' id='btnaltera' type='button' onclick='excluir(" + i + ")'>Excluir</button></td></tr>";
-  }
+      table += "<tr><td>" + dadosLista[i] + "</td><td>" + salvaEmail[i] + "</td><td>" + salvacpf[i] + "</td></td><td><button type='button' onclick='editar()' class='btn btn-success'>Editar</button><button class='btn btn-success' id='btnaltera' type='button' onclick='excluir()'>Excluir</button></td></tr>";
+  } 
 
   // Atualiza o conteúdo da tabela com a nova lista
   document.getElementById('table').innerHTML = table;
