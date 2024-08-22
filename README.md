@@ -4,7 +4,7 @@
 Em um contexto real, a página de login geralmente se conecta a um backend que valida as credenciais do usuário e determina se ele pode acessar o conteúdo protegido.
 
 ### ``Página cadastro``
-Em uma implementação real, o formulário de cadastro estaria ligado a um backend que valida as informações, cria a conta no banco de dados e pode enviar um e-mail de confirmação ao usuário.
+Em uma implementação real, o formulário de cadastro estaria ligado a um backend que valida as informações, cria a conta no banco de dados e pode enviar um e-mail de confirmação ao usuário, e também tem um campo de email e nome.
  
  
 
