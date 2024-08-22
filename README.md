@@ -52,7 +52,7 @@ Para cada nome, são gerados botões que permitem editar e exluir o nome da list
   <source src="img/resultado1.mp4" type="video/mp4">
 </video>
 
-![](img/resultado1.mp4)
+![](../login-cad/img/resultado1.mp4)
 
 ### ``Resultado do cpf/email:``
 ![](img/resultado.png)
