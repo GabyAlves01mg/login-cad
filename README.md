@@ -55,6 +55,7 @@ Para cada nome, são gerados botões que permitem editar e exluir o nome da list
 ### ``Resultado do cpf/email:``
 ![](img/resultado.png)
 ### ``Resultado em Vídeo:``  
+
 <video width="640" height="480" controls>
   <source src="img/resultado.mp4" type="video/mp4">
 </video>
