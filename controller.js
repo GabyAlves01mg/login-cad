@@ -68,3 +68,8 @@ if(!loginEmail || !loginSenha){
   window.location.href ='cadastro.html';
 
 }
+// FUNÇÃO QUE ARMAZENA EM ARRAY NOME NA TELA DE CADASTRO
+ 
+var dadosLista = []; //var é uma palavra-chave em JavaScript usada para declarar variáveis//
+ 
+var salvaEmail = [];
