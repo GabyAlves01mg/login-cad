@@ -8,17 +8,12 @@ Em uma implementação real, o formulário de cadastro estaria ligado a um backe
 adiciona campo de cpf
 
  
- ### ``Passo a passo do código``
- ![](img/passo1.png)
- ![](img/passo2.png)
- ![](img/passo3.png)
- ![](img/passo4.png)
- ![](img/passo5.png)
-
-
-
-
-
+ ### ``Para mais informações clique nas fotos e veja o Passo a passo do código:``
+ * [foto 1](https://github.com/GabyAlves01mg/login-cad/blob/main/img/passo1.png)
+ * [foto 2](https://github.com/GabyAlves01mg/login-cad/blob/main/img/passo2.png)
+ * [foto 3](https://github.com/GabyAlves01mg/login-cad/blob/main/img/passo3.png)
+ * [foto 4](https://github.com/GabyAlves01mg/login-cad/blob/main/img/passo4.png)
+ * [foto 5](https://github.com/GabyAlves01mg/login-cad/blob/main/img/passo5.png)
 
 
 ### ``Descrição``
@@ -53,7 +48,14 @@ Para cada nome, são gerados botões que permitem editar e exluir o nome da list
 
 ### Resultado 🩷
 
-<video width="320" height="240" controls>
+<video width="680" height="394" controls>
+  <source src="img/resultado1.mp4" type="video/mp4">
+</video>
+
+### ``Resultado do cpf/email:``
+![](img/resultado.png)
+### ``Resultado em Vídeo:``  
+<video width="640" height="480" controls>
   <source src="img/resultado.mp4" type="video/mp4">
 </video>
 
