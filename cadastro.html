@@ -1,105 +1,108 @@
 <!DOCTYPE html>
 <html>
+
 <head>
- 
- <meta charset='utf-8'>
- <meta http-equiv='X-UA-Compatible' content='IE=edge'>
- <title>Cadastro</title>
- <meta name='viewport' content='width=device-width, initial-scale=1'>
- <link rel='stylesheet' type='text/css' media='screen' href='cadastro.css'>
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<style>
-    /* Geral */
-body {
-    font-family: Arial, sans-serif;
-    background-image: url(img/fundo\ de\ login.jpg);
-    color: #ffffff;
-}
 
-/* Container principal */
-.container {
-    margin-top: 20px;
-}
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cadastro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='cadastro.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        /* Geral */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(img/fundo\ de\ login.jpg);
+            color: #ffffff;
+        }
 
-/* Cabeçalho */
-h3 {
-    text-align: center;
-    margin-bottom: 20px;
-}
+        /* Container principal */
+        .container {
+            margin-top: 20px;
+        }
 
-/* Campos do formulário */
-.form-label {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
+        /* Cabeçalho */
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-.form-control {
-    margin-bottom: 15px;
-}
+        /* Campos do formulário */
+        .form-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
 
-/* Botão */
-.btn-success {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-    color: #ff0000;
-    background-color: #000000;
-}
+        .form-control {
+            margin-bottom: 15px;
+        }
 
-/* Tabela */
-.table {
-    margin-top: 20px;
-    border-collapse: collapse;
-    width: 100%;
-}
+        /* Botão */
+        .btn-success {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            color: #ff0000;
+            background-color: #000000;
+        }
 
-.table th, .table td {
-    padding: 12px;
-    text-align: left;
-}
+        /* Tabela */
+        .table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+        }
 
-.table th {
-    background-color: #060606;
-    color: #ff0303;
-}
+        .table th,
+        .table td {
+            padding: 12px;
+            text-align: left;
+        }
 
-.table tbody tr:nth-child(even) {
-    background-color: #ff0000;
-}
+        .table th {
+            background-color: #060606;
+            color: #ff0303;
+        }
 
-.table tbody tr:hover {
-    background-color: #ff0000;
-}
+        .table tbody tr:nth-child(even) {
+            background-color: #ff0000;
+        }
 
-</style>
+        .table tbody tr:hover {
+            background-color: #ff0000;
+        }
+    </style>
 </head>
+
 <body>
- <h3>Cadastro de Usuários</h3>
- <div class="container">
- <h1>Nome:</h1>
- <label for="" Nome:></label>
- <input type="text" id="nomeUser" class="form-control"><br>
- <h1>E-mail:</h1>
- <label for="" E-mail:></label>
- <input type="text" id="emailUser" class="form-control"><br>
- <h1>CPF:</h1>
- <label for="" CPF:></label>
- <input type="text" id="cpflUser" class="form-control"><br>
- <button type="button" onclick="salvarUser()" class="btn btn-success">SALVAR</button>
- 
+    <h3>Cadastro de Usuários</h3>
+    <div class="container">
+        <h1>Nome:</h1>
+        <label for="" Nome:></label>
+        <input type="text" id="nomeUser" class="form-control"><br>
+        <h1>E-mail:</h1>
+        <label for="" E-mail:></label>
+        <input type="text" id="emailUser" class="form-control"><br>
+        <h1>CPF:</h1>
+        <label for="" CPF:></label>
+        <input type="text" id="cpflUser" class="form-control"><br>
+        <button type="button" onclick="salvarUser()" class="btn btn-success">SALVAR</button>
+
     </div>
     <br>
-<div class="container">
- <table class="table table-striped" id="table">
-  <tr>
- <th>Nome Usuário</th>
-<th>E-mail</th>
- <th>Ações</th>
- 
+    <div class="container">
+        <table class="table table-striped" id="table">
+            <tr>
+                <th>Nome Usuário</th>
+                <th>E-mail</th>
+                <th>Ações</th>
+
             </tr>
         </table>
     </div>
     <script src="controller.js"></script>
 </body>
-</html>        
+
+</html>

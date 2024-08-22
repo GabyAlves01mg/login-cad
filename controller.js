@@ -16,12 +16,20 @@ function acessar() {
 //FUNÇÃO QUE ARMAZENA EM ARRAY NOME NA TELA DE CADASTRO
 
 var dadosLista = [];
+var emailLista = [];
+var cpfLista  = [];
 
 function salvarUser() {
   let nomeUser = document.getElementById('nomeUser').value;
+  let emailUser = document.getElementById('emailUser').value;
+  let cpflUser = document.getElementById('cpfUser').value;
 
-  if (nomeUser) {
+
+  if (nomeUser && emailUser && cpflUser) {
     dadosLista.push(nomeUser);
+    emailLista.push(emailUser);
+    cpfLista.push(cpflUser);
+
     //console.log(dadosLista);
     criarlista();
     document.getElementById('nomeUser').value = "";
